@@ -4,10 +4,10 @@ version: "1.0"
 permalink: /:year/:month/:day/:title/
 
 # 站点设置
-title: "Guovz"
+title: "yongwx"
 email: pyongwenxiu23@163.com
 description: "雍文秀的个人博客"
-keywords: "Guovz"
+keywords: "yongwx"
 
 # 用户信息设置
 weibo_username: yongwx
@@ -23,7 +23,7 @@ kramdown:
 
 
 # 地址设置
-baseurl: "/jekyll-pithy"
+baseurl: ""
 url: "http://127.0.0.1:4000"
 
 
