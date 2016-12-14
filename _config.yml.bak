@@ -4,10 +4,10 @@ version: "1.0"
 permalink: /:year/:month/:day/:title/
 
 # 站点设置
-title: "yongwx"
+title: "Guovz"
 email: pyongwenxiu23@163.com
 description: "雍文秀的个人博客"
-keywords: "yongwx"
+keywords: "Guovz"
 
 # 用户信息设置
 weibo_username: yongwx
