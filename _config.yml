@@ -1,43 +1,37 @@
-#version
-version: "1.0"
-
-permalink: /:year/:month/:day/:title/
-
-# 站点设置
-title: "yongwx"
-email: pyongwenxiu23@163.com
-description: "雍文秀的个人博客"
-keywords: "yongwx"
-
-# 用户信息设置
-weibo_username: yongwx
-github_username: yongwx
-
-# Markdown设置
-kramdown:
-  input:  GFM
-  use_coderay: true
-  coderay:
-    coderay_line_numbers:  nil
-
-
-
-# 地址设置
+# Site settings
+name: yongwx.github.io
+email: yongwenxiu23@163.com
+author: yongwx
+url: 
+resume_site: 
+github: https://yongwx.github.io/
 baseurl: ""
-url: "https://yongwx.github.io/"
+description: 别不好意思拒绝别人，反正那些好意思为难你的人都不是什么好人。
+meta_description: 雍文秀;个人博客;
+motto: 不管昨天，今天，明天，能豁然开朗就是美好的一天。
+banner: 学而不思则罔，思而不学则殆。
 
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
 
-# 分页设置
-paginate: 2
-paginate_path: "page/:num"
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-#scss设置
-sass:
-    sass_dir: /assets/stylesheet
-    style: :compressed
+github_username: yongwx
+highlighter: rouge
 
-# duoshuo设置
-# duoshuo_shortname: 
+# Build settings
+markdown: kramdown
 
-# 百度统计设置
-# baidu_analysis:
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : 
+    disqus :
+        short_name : 
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
