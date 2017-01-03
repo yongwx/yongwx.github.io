@@ -2,11 +2,19 @@
 
 {% case site.FB.comments.provider %}
 {% when "disqus" %}
+<<<<<<< HEAD
   {% include yongwx.github.io/comments-providers/disqus %}
 {% when "facebook" %}
   {% include yongwx.github.io/comments-providers/facebook %}
 {% when "duoshuo" %}
   {% include yongwx.github.io/comments-providers/duoshuo %}
+=======
+  {% include LessOrMore/comments-providers/disqus %}
+{% when "facebook" %}
+  {% include LessOrMore/comments-providers/facebook %}
+{% when "duoshuo" %}
+  {% include LessOrMore/comments-providers/duoshuo %}
+>>>>>>> bb2cf878afd64cedef3b5606e3d7a0cc7ed4e07b
 {% when "custom" %}
   {% include custom/comments %}
 {% endcase %}
